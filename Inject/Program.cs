@@ -45,7 +45,7 @@ namespace Inject
                 var verifytargetpath = Console.ReadLine()!;
                 if (verifytargetpath == "y" || verifytargetpath == "Y")
                 {
-                    if (string.IsNullOrWhiteSpace(targetPath))
+                    if (string.IsNullOrWhiteSpace(targetPath) || !File.Exists(targetPath))
                     {
                         Console.WriteLine("你输入了一个空的 Traget 路径. 是否重新来过？(y/n)");
                         if (Console.ReadLine() == "y" || Console.ReadLine() == "Y") goto InputTargetPath;
@@ -65,7 +65,7 @@ namespace Inject
                 var verifydllpath = Console.ReadLine()!;
                 if (verifydllpath == "y" || verifydllpath == "Y")
                 {
-                    if (string.IsNullOrWhiteSpace(target))
+                    if (string.IsNullOrWhiteSpace(target) || !File.Exists(target))
                     {
                         Console.WriteLine("输入Dll路径");
                         Console.WriteLine("Path: ");
@@ -122,7 +122,7 @@ namespace Inject
                 var verifytargetpath = Console.ReadLine()!;
                 if (verifytargetpath == "y" || verifytargetpath == "Y")
                 {
-                    if (string.IsNullOrWhiteSpace(targetPath))
+                    if (string.IsNullOrWhiteSpace(targetPath) || !File.Exists(targetPath))
                     {
                         Console.WriteLine("你输入了一个空的 Traget 路径. 是否重新来过？(y/n)");
                         if (Console.ReadLine() == "y" || Console.ReadLine() == "Y") goto InputTargetPath;
@@ -145,7 +145,7 @@ namespace Inject
                 var verifydllpath = Console.ReadLine()!;
                 if (verifydllpath == "y" || verifydllpath == "Y")
                 {
-                    if (string.IsNullOrWhiteSpace(target))
+                    if (string.IsNullOrWhiteSpace(target) || !File.Exists(target))
                     {
                         Console.WriteLine("输入Dll路径");
                         Console.WriteLine("Path: ");
