@@ -27,7 +27,8 @@ namespace Inject
             Console.WriteLine("这是一款免费且开源的 DLL 注入器");
             Console.WriteLine("此软件用于将一些打包好的 DLL 注入到 我团队制作的 Unity Game 中");
             Console.WriteLine("仅供学习！请不要将此软件用于非法用途！");
-            Console.WriteLine("开源地址：https://");
+            Console.WriteLine("开源地址：https://github.com/GashByte/BlazeW-DLL-Loader");
+            Console.WriteLine("Issues反馈：https://github.com/GashByte/BlazeW-DLL-Loader/issues");
             Console.WriteLine("----------------------------------------------------------------\n");
 
             string AutoReadConfig_temp = ReadConfig("AutoReadConfig", "Read");
