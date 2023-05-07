@@ -4,7 +4,7 @@
 # 使用方法
 - 下载 Soucre
 - 编译
-- 运行 Inject.exe
+- **以管理员模式**运行 Inject.exe
 - 输入 Target
 - 输入 DLL Path
 - 选择是否自动保存配置
